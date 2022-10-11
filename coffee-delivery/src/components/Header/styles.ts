@@ -17,7 +17,8 @@ export const HeaderContainer = styled.header `
 
 export const HeaderButtonsContainer = styled.div `
   display: flex;
-  align-items: center;  
+  align-items: center; 
+  gap: 0.75rem; 
 `;
 
 interface HeaderButtonProps {
