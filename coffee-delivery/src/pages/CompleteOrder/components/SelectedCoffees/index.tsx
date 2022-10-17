@@ -1,6 +1,7 @@
 import { TitleText } from "../../../../components/Typography";
 import { CoffeeCartCard } from "../CoffeeCartCard";
-import { DetailsContainer, SelectedCoffeesContainer } from "./styles";
+import { ConfirmationSection } from "./ConfirmationSection";
+import { ConfirmationSectionContainer, DetailsContainer, SelectedCoffeesContainer } from "./styles";
 
 export function SelectedCoffees(){
   return(
@@ -13,6 +14,8 @@ export function SelectedCoffees(){
         <CoffeeCartCard/>
         <CoffeeCartCard/>
         <CoffeeCartCard/>
+
+        <ConfirmationSection/>
       </DetailsContainer>
     </SelectedCoffeesContainer>
   )

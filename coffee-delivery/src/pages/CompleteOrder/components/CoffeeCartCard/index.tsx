@@ -1,6 +1,7 @@
 import { Trash } from "phosphor-react";
+import { QuantityInput } from "../../../../components/QuantityInput";
 import { RegularText } from "../../../../components/Typography";
-import { QuantityInput } from "../../../Home/components/QuantityInput";
+
 import { ActionsContainer, CoffeeCartCardContainer, RemoveButton } from "./styles";
 
 export function CoffeeCartCard() {
@@ -11,7 +12,7 @@ export function CoffeeCartCard() {
         <div>
           <RegularText color="subtitle">Espresso Tradicional</RegularText>
           <ActionsContainer>
-            <QuantityInput/>
+            <QuantityInput size="small"/>
             <RemoveButton>
               <Trash size={16}/>
               Remover
