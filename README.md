@@ -3,6 +3,7 @@
 # technologies used: 
 - styled components
 - react router-dom
-- contexts
+- context
+- provider
 
 application not ready yet
