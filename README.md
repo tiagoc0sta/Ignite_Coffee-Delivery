@@ -6,5 +6,6 @@
 - context
 - provider
 - immer
+- reduce
 
 application not ready yet
