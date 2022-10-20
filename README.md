@@ -6,5 +6,8 @@
 - context
 - provider
 - immer
+- reduce
+- react-hook-form
+- zod
 
 application not ready yet
