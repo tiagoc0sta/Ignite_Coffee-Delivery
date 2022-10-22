@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
@@ -9,9 +9,9 @@ export const GlobalStyle = createGlobalStyle `
   }
 
   body {
-    background: ${({theme }) => theme.colors["base-background"]};
-    color: ${({theme }) => theme.colors["base-text"]};
-    -webkit-font-smoothing: subpixel-antialiased;
+    background: ${({ theme }) => theme.colors["base-background"]};
+    color: ${({ theme }) => theme.colors["base-text"]};
+    -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button {
@@ -38,4 +38,16 @@ export const GlobalStyle = createGlobalStyle `
     -moz-appearance: textfield;
   }
 
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.colors["base-button"]}
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: ${({ theme }) => theme.colors["brand-purple"]}
+  }
 `;
